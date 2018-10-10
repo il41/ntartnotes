@@ -1,0 +1,30 @@
+42 4D       - BM, always start w/ these two bytes
+66 00 00 00 - the file size (102 bytes)
+00 00 00 00 - special use for apps
+36 00 00 00 - how many bytes into the file does the raw data start (54)
+28 00 00 00 - size of rest of header (in bytes)
+04 00 00 00 - width in pixels
+04 00 00 00 - height in pixels
+01 00 18 00 - color plane & bit depth (24bit)
+00 00 00 00 - compression method
+30 00 00 00 - amount of raw data (48 bytes)
+00 00 00 00 - 16 bites of misc. information
+00 00 00 00 -
+00 00 00 00 -
+00 00 00 00 -
+00 FF 00    -
+FF 00 00    -
+00 00 00    -
+00 00 FF    -
+00 00 00    -
+00 FF 00    -
+00 00 FF    -
+FF FF FF    -
+FF FF FF    -
+00 00 FF    -
+00 FF 00    -
+FF FF FF    -
+00 00 FF    -
+00 00 00    -
+FF 00 00    -
+00 FF 00    -

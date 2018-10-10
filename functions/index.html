@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>funk</title>
+    <style>
+      body{margin:0}
+    </style>
+  </head>
+  <body>
+    <script src="p5.min.js"></script>
+    <script>
+    function setup(){
+    createCanvas (innerWidth, innerHeight)
+
+    let x = 0
+    let y = 10
+    let a= 1
+    let t=11
+
+    fill('rgba(255,255,255,0.25)')
+
+    while(x < width){
+    	ellipse(x,y,a)
+    	x+=20
+    	}
+      y+=20
+      a+=t
+      for(let x=0;x<width;x+=20){
+      ellipse(x,y,a)
+      }
+       y+=20
+      a+=t
+      for(let x=0;x<width;x+=20){
+      ellipse(x,y,a)
+      }
+      y+=20
+      a+=t
+      for(let x=0;x<width;x+=20){
+      ellipse(x,y,a)
+      }
+       y+=20
+      a+=t
+      for(let x=0;x<width;x+=20){
+      ellipse(x,y,a)
+      }
+
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!-- this is how to comment -->
+<person>
+  <name>Ohad</name>
+  <age>16</age>
+  <location>Los Angeles</location>
+  <relation>sib</relation>
+</person>
+
+<person>
+  <name>Ilai</name>
+  <age>19</age>
+  <location>Chicago</location>
+  <relation>me</relation>
+</person>

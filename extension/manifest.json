@@ -1,0 +1,27 @@
+"applications":
+  {
+      "gecko":
+      {
+         "id": "YOUR EXTENSION ID HERE"
+      }
+  },
+{
+
+  "manifest_version": 1.0,
+  "name": "BIRTHDAY",
+  "version": "1.0",
+  "description": "HAPPY",
+  "icons":
+  {
+    "48": "ico-48.png"
+  },
+
+  "content_scripts":
+  [
+    {
+      "matches": ["*"],
+      "js": ["rainbowwish.js"]
+    }
+  ]
+
+}
